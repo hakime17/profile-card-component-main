@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+
+body{
+    min-height:100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat;
+    background-position: right 48vw bottom 40vh, left 45vw top 44vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    padding: 10px;
+}
+.content{
+    border: 0.3rem ;
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    font-family: 'Kumbh Sans', sans-serif;
+    line-height: 0.7rem;
+    
+}
+.media{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    line-height: 1rem;
+}
+.location{
+    color: hsl(0, 0%, 59%);
+    font-size:medium;
+    margin-bottom: 2rem;
+    
+}
+h2,p{
+    font-size: 18px;
+    color: hsl(229, 23%, 23%);
+    
+}
+h2> span{
+    color:  hsl(0, 0%, 59%);
+    font-weight: 400;
+    padding-left: 0.4rem;
+}
+ p > span{
+    color:  hsl(0, 0%, 59%);
+    font-weight: 400;
+    font-size: x-small;
+    letter-spacing: 1px;
+}
+ hr{
+    background-color:hsl(0, 0%, 59%) ;
+    color: hsl(0, 0%, 59%);
+ }
+.victor{
+    border: 5px solid #fff;
+    position:absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+}
+.writing{
+    padding-top: 50px;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+ }
+
+.attribution a { color: hsl(228, 45%, 44%); }
